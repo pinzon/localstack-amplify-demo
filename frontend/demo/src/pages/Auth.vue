@@ -7,12 +7,24 @@
     <v-window v-model="tab">
       <v-window-item :value="1" :key="1">
         <v-card>
-        <sign-in></sign-in>
+          <v-container>
+            <v-row justify="center">
+              <v-col cols="6">
+                <sign-in></sign-in>
+              </v-col>
+            </v-row>
+          </v-container>
         </v-card>
       </v-window-item>
       <v-window-item :value="2" :key="2">
         <v-card>
-        <sign-up></sign-up>
+          <v-container>
+            <v-row justify="center">
+              <v-col cols="6">
+                <sign-up></sign-up>
+              </v-col>
+            </v-row>
+          </v-container>
         </v-card>
       </v-window-item>
     </v-window>
@@ -27,7 +39,7 @@ export default {
   name: "App",
   components: {
     SignIn,
-    SignUp
+    SignUp,
   },
   data: () => ({
     tab: 1,

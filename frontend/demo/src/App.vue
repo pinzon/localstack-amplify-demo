@@ -14,9 +14,9 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <v-row align="center">
-          <v-col col=3>
-            <img alt="Vue logo" src="./assets/logo.png" />
+        <v-row align="center" justify="center">
+          <v-col align-self="center" cols=4>
+            <img alt="Vue logo" width="200" src="./assets/logo.png" />
           </v-col>
         </v-row>
       </v-container>
